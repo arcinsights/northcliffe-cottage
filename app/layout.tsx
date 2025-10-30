@@ -39,3 +39,30 @@ export default function RootLayout({
     </html>
   )
 }
+
+export const metadata = {
+  title: "Northcliffe Cottage",
+  description: "Charming countryside stay with beautiful views.",
+  openGraph: {
+    title: "Northcliffe Cottage",
+    description: "Charming countryside stay with beautiful views.",
+    url: "https://northcliffe-cottage.uk",
+    siteName: "Northcliffe Cottage",
+    images: [
+      {
+        url: "https://northcliffe-cottage.uk/og-image.jpg", // replace with your image
+        width: 1200,
+        height: 630,
+        alt: "Northcliffe Cottage front view",
+      },
+    ],
+    locale: "en_GB",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Northcliffe Cottage",
+    description: "Charming countryside stay with beautiful views.",
+    images: ["https://northcliffe-cottage.uk/og-image.jpg"], // same image
+  },
+};
