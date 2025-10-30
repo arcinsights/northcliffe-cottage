@@ -30,7 +30,7 @@ export const metadata: Metadata = {
     siteName: "Northcliffe Cottage",
     images: [
       {
-        url: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/northcliffe%20-%2022-UXeaWI3t0WqwZ8vE9SUP0GaDyIGyIm.jpeg",
+        url: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/northcliffe%20-%2017-WwUnjMMwCIntstT3iY9J5sESwBrbWd.jpeg",
         width: 1200,
         height: 630,
         alt: "Northcliffe Cottage - Traditional Peak District stone cottage exterior",
@@ -44,7 +44,7 @@ export const metadata: Metadata = {
     title: "Northcliffe Cottage - Peak District Holiday Cottage",
     description: "Luxury holiday cottage in Hope Valley with stunning Peak District views and modern amenities.",
     images: [
-      "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/northcliffe%20-%2022-UXeaWI3t0WqwZ8vE9SUP0GaDyIGyIm.jpeg",
+      "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/northcliffe%20-%2017-WwUnjMMwCIntstT3iY9J5sESwBrbWd.jpeg",
     ],
   },
   generator: "v0.app",
