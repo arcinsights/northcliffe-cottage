@@ -7,9 +7,9 @@ import {
   Waves,
   Thermometer,
   UtensilsCrossed,
-  Shirt,
+  WashingMachine,
   Mountain,
-  Trees,
+  Flower2,
   Home,
 } from "lucide-react"
 
@@ -23,9 +23,9 @@ export default function Amenities() {
     { icon: Thermometer, label: "Central Heating", description: "Year-round comfort", color: "text-gray-700" },
     { icon: Wind, label: "Fresh Linens", description: "Quality bedding", color: "text-slate-500" },
     { icon: UtensilsCrossed, label: "Dining Area", description: "Seats 6 guests", color: "text-teal-600" },
-    { icon: Shirt, label: "Washer", description: "Laundry facilities", color: "text-gray-600" },
+    { icon: WashingMachine, label: "Washer/Dryer", description: "Combo unit", color: "text-gray-600" },
     { icon: Mountain, label: "Mountain Views", description: "Stunning scenery", color: "text-emerald-600" },
-    { icon: Trees, label: "Garden Access", description: "Outdoor space", color: "text-green-600" },
+    { icon: Flower2, label: "Patio with Views", description: "Outdoor space", color: "text-rose-500" },
     { icon: Home, label: "Entire Home", description: "Complete privacy", color: "text-slate-700" },
   ]
 
@@ -70,13 +70,19 @@ export default function Amenities() {
             <li className="flex items-start gap-3">
               <span className="text-amber-300 font-bold text-xl">✓</span>
               <span>
-                <strong>Stunning Views:</strong> Wake up to breathtaking Peak District landscapes
+                <strong>Stunning Views:</strong> Wake up to breathtaking Peak District landscapes from your patio
               </span>
             </li>
             <li className="flex items-start gap-3">
               <span className="text-amber-300 font-bold text-xl">✓</span>
               <span>
                 <strong>Traditional Character:</strong> Authentic stone cottage with modern comforts
+              </span>
+            </li>
+            <li className="flex items-start gap-3">
+              <span className="text-amber-300 font-bold text-xl">✓</span>
+              <span>
+                <strong>Pet Friendly:</strong> Bring your furry friends along for the adventure
               </span>
             </li>
             <li className="flex items-start gap-3">

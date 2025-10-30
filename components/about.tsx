@@ -1,11 +1,11 @@
-import { Home, Users, Bed, Bath } from "lucide-react"
+import { Users, Bed, Bath, Sofa } from "lucide-react"
 
 export default function About() {
   const features = [
-    { icon: Users, label: "Sleeps 6", description: "3 Bedrooms", color: "from-teal-500 to-teal-600" },
-    { icon: Bed, label: "3 Bedrooms", description: "Comfortable beds", color: "from-slate-600 to-slate-700" },
+    { icon: Users, label: "Sleeps 6", description: "2 beds + sofa bed", color: "from-teal-500 to-teal-600" },
+    { icon: Bed, label: "2 Bedrooms", description: "Comfortable beds", color: "from-slate-600 to-slate-700" },
     { icon: Bath, label: "2 Bathrooms", description: "Including jacuzzi", color: "from-teal-600 to-cyan-600" },
-    { icon: Home, label: "Entire Home", description: "Private cottage", color: "from-gray-600 to-gray-700" },
+    { icon: Sofa, label: "Sofa Bed", description: "In living room", color: "from-gray-600 to-gray-700" },
   ]
 
   return (
@@ -16,11 +16,10 @@ export default function About() {
             <h2 className="text-3xl md:text-4xl font-bold mb-6 text-balance font-serif">
               Your Perfect <span className="text-teal-600">Peak District</span> Holiday Cottage
             </h2>
-            {/* </CHANGE> */}
             <p className="text-lg text-gray-700 leading-relaxed mb-6">
               Nestled in the heart of Hope Valley, Northcliffe Cottage offers the perfect blend of traditional Peak
-              District charm and contemporary luxury. This beautifully renovated stone cottage provides an idyllic base
-              for exploring the stunning Derbyshire countryside.
+              District charm and contemporary luxury. This beautifully renovated stone cottage features 2 comfortable
+              bedrooms plus a sofa bed in the living room, providing flexible accommodation for up to 6 guests.
             </p>
             <p className="text-lg text-gray-700 leading-relaxed mb-6">
               Wake up to panoramic views of the Peak District hills, enjoy modern amenities including a luxurious

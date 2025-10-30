@@ -10,6 +10,16 @@ const photos = [
     category: "exterior",
   },
   {
+    url: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/WhatsApp%20Image%202025-10-23%20at%2012.42.34-OmvxzdjqacZ7X7LTJvxa4hSOzw8DCy.jpeg",
+    alt: "Northcliffe Cottage street view with Peak District hills backdrop",
+    category: "exterior",
+  },
+  {
+    url: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/northcliffe%20-%2017-WwUnjMMwCIntstT3iY9J5sESwBrbWd.jpeg",
+    alt: "Stunning Peak District views from cottage patio",
+    category: "exterior",
+  },
+  {
     url: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/northcliffe%20-%2017-WwUnjMMwCIntstT3iY9J5sESwBrbWd.jpeg",
     alt: "Stunning Peak District views from cottage",
     category: "exterior",
