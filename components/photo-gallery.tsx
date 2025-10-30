@@ -84,7 +84,6 @@ export default function PhotoGallery() {
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-bold mb-4 font-serif">Photo Gallery</h2>
-          {/* </CHANGE> */}
           <p className="text-lg text-muted-foreground">
             Explore our beautifully appointed Peak District holiday cottage
           </p>
@@ -112,25 +111,31 @@ export default function PhotoGallery() {
           <div className="fixed inset-0 z-50 bg-black/95 flex items-center justify-center p-4">
             <button
               onClick={closeLightbox}
-              className="absolute top-4 right-4 text-white hover:text-gray-300 transition-colors"
+              className="absolute top-4 right-4 text-white hover:text-gray-300 transition-colors z-10"
             >
               <X className="w-8 h-8" />
             </button>
 
-            <button onClick={prevImage} className="absolute left-4 text-white hover:text-gray-300 transition-colors">
+            <button
+              onClick={prevImage}
+              className="absolute left-4 text-white hover:text-gray-300 transition-colors z-10"
+            >
               <ChevronLeft className="w-12 h-12" />
             </button>
 
-            <div className="max-w-5xl max-h-[90vh] w-full">
+            <div className="flex flex-col items-center justify-center max-w-7xl max-h-[90vh] w-full h-full">
               <img
                 src={photos[selectedImage].url || "/placeholder.svg"}
                 alt={photos[selectedImage].alt}
-                className="w-full h-full object-contain"
+                className="max-w-full max-h-[85vh] w-auto h-auto object-contain"
               />
-              <p className="text-white text-center mt-4 text-sm">{photos[selectedImage].alt}</p>
+              <p className="text-white text-center mt-4 text-sm px-4">{photos[selectedImage].alt}</p>
             </div>
 
-            <button onClick={nextImage} className="absolute right-4 text-white hover:text-gray-300 transition-colors">
+            <button
+              onClick={nextImage}
+              className="absolute right-4 text-white hover:text-gray-300 transition-colors z-10"
+            >
               <ChevronRight className="w-12 h-12" />
             </button>
           </div>
